@@ -9,6 +9,9 @@ edit_uri: tree/main/docs/
 nav:
   - Добро пожаловать!: index.md
   - О проекте: about/index.md
+  - Алгебра:
+    - Логика:
+      - Кванторы: algebra/logic/quantifier.md
 
 theme:
   name: material
