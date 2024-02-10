@@ -7,7 +7,6 @@ theme:
   language: ru
   features:
     - content.action.edit
-    - content.action.view
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
