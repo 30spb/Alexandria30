@@ -8,10 +8,10 @@ edit_uri: tree/main/docs/
 
 nav:
   - Добро пожаловать!: index.md
-  - О проекте: about/index.md
-  - Алгебра:
-    - Логика:
-      - Кванторы: algebra/logic/quantifier.md
+  - О проекте: 
+    - Технические вопросы: about/index.md
+    - Админ состав: about/admins.md
+  
 
 theme:
   name: material
