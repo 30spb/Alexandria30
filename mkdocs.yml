@@ -4,7 +4,7 @@ site_author: Ученики 30ки
 
 nav:
   - Добро пожаловать!: index.md
-  - О проекте: /about/index.md
+  - О проекте: about/index.md
 
 theme:
   name: material
