@@ -3,6 +3,7 @@ site_description: Сборник конспектов который не сго
 site_author: Ученики 30ки
 
 repo_url: https://github.com/30spb/Alexandria30
+repo_name: 30spb/Alexandria30
 edit_uri: tree/main/docs/
 
 nav:
