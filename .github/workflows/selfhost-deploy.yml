@@ -1,6 +1,8 @@
 name: Deploy mkdocs to github pages (self-host)
 on:
   push:
+    branches:
+      - test
     paths:
       - .github/workflows/selfhost-deploy.yml
       - docs/**
