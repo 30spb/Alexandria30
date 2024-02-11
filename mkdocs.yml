@@ -9,8 +9,8 @@ edit_uri: tree/main/docs/
 nav:
   - Добро пожаловать!: index.md
   - О проекте: 
-    - Технические вопросы: about/index.md
-    - Админ состав: about/admins.md
+    - Технические вопросы: faq/index.md
+    - Админ состав: faq/admins.md
   
 
 theme:
