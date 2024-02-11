@@ -36,8 +36,8 @@ theme:
 plugins:
   - search
   - git-revision-date-localized:
-      type: custom
-      custom_format: "%d.%m.%Y %I:%M"
+      type: iso_datetime
+      #custom_format: "%d.%m.%Y %I:%M"
   - awesome-pages
 
 markdown_extensions:
