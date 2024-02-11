@@ -41,7 +41,6 @@ plugins:
   - git-revision-date-localized:
       type: custom
       custom_format: "%d.%m.%Y %I:%M"
-      enable_creation_date: true
 
 markdown_extensions:
   - attr_list
