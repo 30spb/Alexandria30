@@ -39,6 +39,7 @@ theme:
 plugins:
   - search
   - git-revision-date-localized:
+      type: custom
       custom_format: "%d.%m.%Y %I:%M"
       enable_creation_date: true
 
