@@ -9,7 +9,7 @@ edit_uri: tree/main/docs/
 
 nav:
   - Добро пожаловать!: index.md
-  - Faq: ... | faq/**
+  - ...
 
 theme:
   name: material
