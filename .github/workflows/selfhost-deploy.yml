@@ -1,8 +1,8 @@
-name: Deploy mkdocs to github pages
+name: Deploy mkdocs to github pages (self-host)
 on:
   push:
     paths:
-      - .github/workflows/mkdocs.yml
+      - .github/workflows/selfhost-deploy.yml
       - docs/**
       - mkdocs.yml
 permissions:
