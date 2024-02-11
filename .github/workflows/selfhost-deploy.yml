@@ -25,4 +25,5 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-revision-date-localized-plugin mkdocs-awesome-pages-plugin
       - run: mkdocs build
+        if: success() || failure()
       - run: cp -r /site /home/github-runner/html
