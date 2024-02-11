@@ -38,8 +38,7 @@ theme:
 
 plugins:
   - search
-  - git-revision-date-localized:
-    type: iso_datetime
+  - git-revision-date-localized
 
 markdown_extensions:
   - attr_list
