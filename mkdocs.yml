@@ -9,10 +9,7 @@ edit_uri: tree/main/docs/
 
 nav:
   - Добро пожаловать!: index.md
-  - О проекте: 
-    - Технические вопросы: faq/index.md
-    - Админ состав: faq/admins.md
-  
+  - ...
 
 theme:
   name: material
@@ -41,6 +38,7 @@ plugins:
   - git-revision-date-localized:
       type: custom
       custom_format: "%d.%m.%Y %I:%M"
+  - awesome-pages
 
 markdown_extensions:
   - attr_list
