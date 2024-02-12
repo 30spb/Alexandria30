@@ -1,23 +1,21 @@
-name: Deploy mkdocs to github pages
+name: Deploy mkdocs to github pages (self-host)
 on:
   push:
     branches:
-      - main
+      - self-host
     paths:
-      - .github/workflows/mkdocs.yml
+      - .github/workflows/selfhost-deploy.yml
       - docs/**
       - mkdocs.yml
 permissions:
   contents: write
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -30,4 +28,6 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-revision-date-localized-plugin mkdocs-awesome-pages-plugin
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build
+        if: success() || failure()
+      - run: cp -a ./site/. /home/github-runner/nginx/html/
