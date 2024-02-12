@@ -10,7 +10,8 @@ edit_uri: tree/main/docs/
 nav:
   - Добро пожаловать!: index.md
   - ЧаВо:
-    - ... | /faq/**
+    - Ликбез по Александрии: faq/index.md
+    - Редакция Александрии: faq/admins.md
   - ...
 
 theme:
