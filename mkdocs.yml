@@ -20,6 +20,7 @@ theme:
   features:
     - content.action.edit
     - content.tooltips
+    - navigation.path
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -45,6 +46,8 @@ plugins:
   - awesome-pages
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
