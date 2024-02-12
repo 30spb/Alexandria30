@@ -38,7 +38,6 @@ plugins:
   - git-revision-date-localized:
       type: iso_datetime
       timezone: Europe/Moscow
-      #custom_format: "%d.%m.%Y %I:%M"
   - awesome-pages
 
 markdown_extensions:
