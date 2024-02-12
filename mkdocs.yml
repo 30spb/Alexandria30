@@ -37,7 +37,6 @@ plugins:
   - search
   - git-revision-date-localized:
       type: iso_datetime
-      locale: ru
       #custom_format: "%d.%m.%Y %I:%M"
   - awesome-pages
 
