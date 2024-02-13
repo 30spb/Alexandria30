@@ -1,3 +1,5 @@
 title: Мат. логика
 nav:
-  - ...
+  - Элементы математической логики: logic_operations.md
+  - Логические операции: math_logic_elements.md
+ 
