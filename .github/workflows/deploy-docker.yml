@@ -26,4 +26,4 @@ jobs:
             context: .
             file: ./Dockerfile.multistage
             push: true
-            tags: ${{ secrets.DOCKER_USERNAME }}/alexandria30:latest,  ${{ secrets.DOCKER_USERNAME }}/alexandria30:${{ env.RELEASE_VERSION }},
+            tags: ${{ secrets.DOCKER_USERNAME }}/alexandria30:latest,  ${{ secrets.DOCKER_USERNAME }}/alexandria30:${{ GITHUB_REF#refs/heads/ }}-${{ GITHUB_SHA }},
