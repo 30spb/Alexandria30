@@ -12,17 +12,6 @@ RUN cd ./site && tar -czf /build.tar.gz ./
 
 FROM nginx AS prod-stage
 
-ENV site_url=https://30spb.github.io/Alexandria30/
-ENV repo_url=https://github.com/30spb/Alexandria30
-ENV repo_name=30spb/Alexandria30
-
-ENV nginx_server_name=30.spb.ru
-ENV nginx_listen_port=80
-ENV nginx_listen_port_ssl=443
-
-EXPOSE ${nginx_listen_port}
-EXPOSE ${nginx_listen_port_ssl}
-
 # Copy built site to nginx dir
 WORKDIR /etc/nginx/html
 
