@@ -1,0 +1,28 @@
+FROM python:3 AS build-stage
+
+WORKDIR /build
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Will build static site to /site
+RUN mkdocs build
+
+FROM nginx AS prod-stage
+
+ENV site_url=https://30spb.github.io/Alexandria30/
+ENV repo_url=https://github.com/30spb/Alexandria30
+ENV repo_name=30spb/Alexandria30
+
+ENV nginx_server_name=30.spb.ru
+ENV nginx_listen_port=80
+ENV nginx_listen_port_ssl=443
+
+EXPOSE ${nginx_listen_port}
+EXPOSE ${nginx_listen_port_ssl}
+
+# Copy built site to nginx dir
+RUN cp -a ./build/site/. /etc/nginx/html/
+
+# No entrypoint since nginx have one
+
