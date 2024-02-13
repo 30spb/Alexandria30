@@ -2,13 +2,13 @@ FROM python:3 AS build-stage
 
 WORKDIR /build
 
-COPY requirements.txt ./
+COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Will build static site to /site
 RUN mkdocs build
 
-RUN tar -czf build.tar.gz /site
+RUN cd ./site && tar -czf /build.tar.gz ./
 
 FROM nginx AS prod-stage
 
@@ -24,7 +24,9 @@ EXPOSE ${nginx_listen_port}
 EXPOSE ${nginx_listen_port_ssl}
 
 # Copy built site to nginx dir
-COPY --from=build /build.tar.gz ./
+WORKDIR /etc/nginx/html
+
+COPY --from=build-stage /build.tar.gz ./
 RUN tar -xzf build.tar.gz && rm build.tar.gz
 
 # No entrypoint since nginx have one
