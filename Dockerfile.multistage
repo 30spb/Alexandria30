@@ -8,6 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Will build static site to /site
 RUN mkdocs build
 
+RUN tar -czf build.tar.gz /site
+
 FROM nginx AS prod-stage
 
 ENV site_url=https://30spb.github.io/Alexandria30/
@@ -22,7 +24,8 @@ EXPOSE ${nginx_listen_port}
 EXPOSE ${nginx_listen_port_ssl}
 
 # Copy built site to nginx dir
-RUN cp -a ./build/site/. /etc/nginx/html/
+COPY --from=build /build.tar.gz ./
+RUN tar -xzf build.tar.gz && rm build.tar.gz
 
 # No entrypoint since nginx have one
 
