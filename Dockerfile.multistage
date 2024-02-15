@@ -13,7 +13,7 @@ RUN cd ./site && tar -czf /build.tar.gz ./
 FROM nginx AS prod-stage
 
 # Copy built site to nginx dir
-WORKDIR /etc/nginx/html
+WORKDIR /usr/www/html
 
 COPY --from=build-stage /build.tar.gz ./
 RUN tar -xzf build.tar.gz && rm build.tar.gz
