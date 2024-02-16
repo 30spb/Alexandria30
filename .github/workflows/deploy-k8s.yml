@@ -43,16 +43,8 @@ jobs:
     needs: deploy-to-docker-hub
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
-          fetch-depth: 0
-      - name: Authenticate to cluster
-        run: echo ${{ secrets.KUBE_CONFIG }} | base64 -d > $KUBECONFIG
-      - uses: firehed/deploy-to-kubernetes-action@v0.3.0
-        with:
-          namespace: default
-          deployment: alexandria-deployment
-          container: alexandria30
-          image: ${{ secrets.DOCKER_USERNAME }}/alexandria30:${{ github.ref_name }}-${{ github.sha }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          args: set image deployment/alexandria-deployment alexandria30=${{ secrets.DOCKER_USERNAME }}/alexandria30:${{ github.ref_name }}-${{ github.sha }}
