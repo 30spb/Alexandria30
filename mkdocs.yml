@@ -42,14 +42,14 @@ theme:
 
 plugins:
   - search
+  - minify:
+      minify_html: true
   - git-revision-date-localized:
       type: iso_datetime
       timezone: Europe/Moscow
   - awesome-pages
 
 markdown_extensions:
-  - minify:
-      minify_html: true
   - toc:
       toc_depth: 3
       permalink: "#"
