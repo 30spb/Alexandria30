@@ -7,6 +7,8 @@ repo_url: https://github.com/30spb/Alexandria30
 repo_name: 30spb/Alexandria30  
 edit_uri: tree/main/docs/
 
+copyright: Made with ❤️ from pml30
+
 nav:
   - Добро пожаловать!: index.md
   - ЧаВо:
