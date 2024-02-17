@@ -48,6 +48,8 @@ plugins:
   - awesome-pages
 
 markdown_extensions:
+  - minify:
+      minify_html: true
   - toc:
       toc_depth: 3
       permalink: "#"
