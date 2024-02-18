@@ -3,4 +3,5 @@ nav:
   - Элементы математической логики: math_logic_elements.md
   - Логические операции: logic_operations.md
   - Элементы теории множеств: set_theory_elements.md
+  - Теоретико-множественные операции: set_theory_operations.md
  
