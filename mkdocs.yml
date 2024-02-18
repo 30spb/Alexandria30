@@ -9,6 +9,12 @@ edit_uri: tree/main/docs/
 
 copyright: Made with ❤️ from <a href="https://school30.spb.ru/">pml30</a>
 
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/alexandria_30
+      name: Мы в телеге!
+
 nav:
   - Добро пожаловать!: index.md
   - ЧаВо:
