@@ -46,7 +46,7 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
-      type: iso_datetime
+      type: timeago
       timezone: Europe/Moscow
   - awesome-pages
 
