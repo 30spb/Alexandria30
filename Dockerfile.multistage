@@ -1,4 +1,4 @@
-FROM python:3 AS build-stage
+FROM python:3.12 AS build-stage
 
 WORKDIR /build
 
@@ -10,7 +10,7 @@ RUN mkdocs build
 
 RUN cd ./site && tar -czf /build.tar.gz ./
 
-FROM nginx AS prod-stage
+FROM nginx:1.25 AS prod-stage
 
 # Copy built site to nginx dir
 WORKDIR /usr/www/html
