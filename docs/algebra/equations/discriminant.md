@@ -35,3 +35,9 @@ $(x + \frac{b}{2a})^2 - \frac{D}{4a^2} = 0$ <br><br>
     $x = - \frac{b}{2a} + \frac{\sqrt{D}}{2a} \lor x = - \frac{b}{2a} - \frac{\sqrt{D}}{2a} \iff$ <br><br>
     $x = - \frac{b + \sqrt{D}}{2a} \lor x = - \frac{b - \sqrt{D}}{2a} \iff$ <br><br>
     $x = - \frac{b \pm \sqrt{D}}{2a}$
+
+---
+| Author         | Contact                       | Role     |
+|----------------|-------------------------------|----------|
+| Ренёв О.В.     |                               | Автор    |
+| Лавелин Михаил | [Тг](https://t.me/mikhaillav) | Редактор |
