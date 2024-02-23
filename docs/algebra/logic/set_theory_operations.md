@@ -6,7 +6,7 @@
 
 $A \cap B = \{\mspace{5mu} x \mspace{5mu} | \mspace{5mu} (x \in A) \wedge (x \in B) \mspace{5mu} \}$
 
-![Пересечение на диаграмме эйлера](../../assets/algebra/logic/a_intersect_b.png "Пересечение на диаграмме эйлера"){ loading=lazy }
+![Пересечение на диаграмме эйлера](../../assets/algebra/logic/set_theory_operations/a_intersect_b.png "Пересечение на диаграмме эйлера"){ loading=lazy }
 
 ## Объединение {#определение-объединения}
 
@@ -14,7 +14,7 @@ $A \cap B = \{\mspace{5mu} x \mspace{5mu} | \mspace{5mu} (x \in A) \wedge (x \in
 
 $A \cup B = \{\mspace{5mu} x \mspace{5mu} | \mspace{5mu} (x \in A) \lor (x \in B) \mspace{5mu} \}$
 
-![Объединение на диаграмме эйлера](../../assets/algebra/logic/a_union_b.png "Объединение на диаграмме эйлера"){ loading=lazy }
+![Объединение на диаграмме эйлера](../../assets/algebra/logic/set_theory_operations/a_union_b.png "Объединение на диаграмме эйлера"){ loading=lazy }
 
 ## Теоретико-множественная разность {#определение-теоретико-множественной-разности}
 
@@ -22,7 +22,7 @@ $A \cup B = \{\mspace{5mu} x \mspace{5mu} | \mspace{5mu} (x \in A) \lor (x \in B
 
 $A \setminus B = \{\mspace{5mu} x \mspace{5mu} | \mspace{5mu} (x \in A) \wedge \neg (x \in B) \mspace{5mu} \}$
 
-![Теоретико-множественная разность на диаграмме эйлера](../../assets/algebra/logic/a_difference_b.png "Теоретико-множественная разность на диаграмме эйлера"){ loading=lazy }
+![Теоретико-множественная разность на диаграмме эйлера](../../assets/algebra/logic/set_theory_operations/a_difference_b.png "Теоретико-множественная разность на диаграмме эйлера"){ loading=lazy }
 
 ---
 | Author         | Contact                       | Role     |
