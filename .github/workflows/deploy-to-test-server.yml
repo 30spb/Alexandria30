@@ -5,6 +5,9 @@ on:
     inputs:
         tags:
           description: 'Test scenario tags'
+  push: 
+    branches:
+      - test
       
 
 permissions:
