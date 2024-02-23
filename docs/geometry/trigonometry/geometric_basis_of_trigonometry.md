@@ -47,15 +47,19 @@ B - точка на стороне угла<br>
 
     - Для $\Delta AB_1M$: <br>
 
-        $S\Delta AB_1M = \frac{1}{2} * B_1C_1 * AM = \frac{1}{2} * MH * AB_1 \Rightarrow$ <br><br>
-        $B_1C_1 * AM = MH * AB_1 \Rightarrow$ <br><br>
-        $\frac{B_1C_1}{AB_1} = \frac{MH}{AM}$ <br><br>
+        <div style="overflow-x: scroll">
+            $S\Delta AB_1M = \frac{1}{2} * B_1C_1 * AM = \frac{1}{2} * MH * AB_1 \Rightarrow$ <br><br>
+            $B_1C_1 * AM = MH * AB_1 \Rightarrow$ <br><br>
+            $\frac{B_1C_1}{AB_1} = \frac{MH}{AM}$ <br><br>
+        </div>
     
     - Для $\Delta AB_2M$: <br>
 
-        $S\Delta AB_2M = \frac{1}{2} * B_2C_2 * AM = \frac{1}{2} * MH * AB_2 \Rightarrow$ <br><br>
-        $B_2C_2 * AM = MH * AB_2 \Rightarrow$ <br><br>
-        $\frac{B_2C_2}{AB_2} = \frac{MH}{AM}$ <br><br>
+        <div style="overflow-x: scroll">
+            $S\Delta AB_2M = \frac{1}{2} * B_2C_2 * AM = \frac{1}{2} * MH * AB_2 \Rightarrow$ <br><br>
+            $B_2C_2 * AM = MH * AB_2 \Rightarrow$ <br><br>
+            $\frac{B_2C_2}{AB_2} = \frac{MH}{AM}$ <br><br>
+        </div>
 
     Получилось, что $\frac{B_2C_2}{AB_2} = \frac{MH}{AM} = \frac{B_1C_1}{AB_1}$
 
@@ -64,16 +68,18 @@ B - точка на стороне угла<br>
     Аналогично, Берем произвольную точку M на проекции угла. <br>
 
     - Для $\Delta AB_1M$: <br>
-
-        $S\Delta AB_1M = \frac{1}{2} * B_1C_1 * AM = \frac{1}{2} * MH * AB_1 \Rightarrow$ <br><br>
-        $B_1C_1 * AM = MH * AB_1 \Rightarrow$ <br><br>
-        $\frac{B_1C_1}{AB_1} = \frac{MH}{AM}$ <br><br>
+        <div style="overflow-x: scroll">
+            $S\Delta AB_1M = \frac{1}{2} * B_1C_1 * AM = \frac{1}{2} * MH * AB_1 \Rightarrow$ <br><br>
+            $B_1C_1 * AM = MH * AB_1 \Rightarrow$ <br><br>
+            $\frac{B_1C_1}{AB_1} = \frac{MH}{AM}$ <br><br>
+        </div>
     
     - Для $\Delta AB_2M$: <br>
-
-        $S\Delta AB_2M = \frac{1}{2} * B_2C_2 * AM = \frac{1}{2} * MH * AB_2 \Rightarrow$ <br><br>
-        $B_2C_2 * AM = MH * AB_2 \Rightarrow$ <br><br>
-        $\frac{B_2C_2}{AB_2} = \frac{MH}{AM}$ <br><br>
+        <div style="overflow-x: scroll">
+            $S\Delta AB_2M = \frac{1}{2} * B_2C_2 * AM = \frac{1}{2} * MH * AB_2 \Rightarrow$ <br><br>
+            $B_2C_2 * AM = MH * AB_2 \Rightarrow$ <br><br>
+            $\frac{B_2C_2}{AB_2} = \frac{MH}{AM}$ <br><br>
+        </div>
 
     Получилось, что $\frac{B_2C_2}{AB_2} = \frac{MH}{AM} = \frac{B_1C_1}{AB_1}$
 
