@@ -35,7 +35,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@release
         with:
           local: site
-          remote: usr/www/html
+          remote: /usr/www/html/
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
