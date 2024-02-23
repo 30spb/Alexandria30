@@ -1,14 +1,16 @@
 name: Deploy mkdocs to github pages
+
 on:
-  push:
+  pull_request:
     branches:
       - main
-    paths:
-      - .github/workflows/deploy-gh-pages.yml
-      - docs/**
-      - mkdocs.yml
+    types:
+      [closed]
+  workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
