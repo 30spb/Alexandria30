@@ -14,6 +14,8 @@ extra:
     - icon: fontawesome/brands/telegram
       link: https://t.me/alexandria_30
       name: Мы в телеге!
+  owl: 
+    path: /assets/owl_anim.gif
 
 nav:
   - Добро пожаловать!: index.md
@@ -24,6 +26,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   features:
     - content.action.edit
@@ -56,6 +59,7 @@ plugins:
       type: timeago
       timezone: Europe/Moscow
   - awesome-pages
+  - meta-descriptions
 
 markdown_extensions:
   - toc:
