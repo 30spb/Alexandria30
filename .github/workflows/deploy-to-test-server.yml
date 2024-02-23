@@ -6,7 +6,7 @@ permissions:
   contents: write
 jobs:
   deploy:
-    runs-on: alexandria-test-server
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,4 +23,13 @@ jobs:
             mkdocs-material-
       - run: pip install -r requirements.txt
       - run: mkdocs build
-      - run: cp -a /site/. /usr/www/html
+      - name: Copy folder content recursively to remote
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: site
+          remote: usr/www/html
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          rmRemote: true
+          dotfiles: true   
