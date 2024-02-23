@@ -2,5 +2,6 @@ title: Геометрия
 nav:
   - ...
   - Теорема Бояй-Гервина: boyai_gerwien_theorem.md
+  - Теорема о медианах треугольника: triangle_median_theorem.md
 
   
