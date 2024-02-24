@@ -27,8 +27,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: false
-          VALIDATE_HTML: false
-          VALIDATE_YAML: false
-          VALIDATE_DOCKERFILE_HADOLINT: false
+          VALIDATE_MARKDOWN: true
           MARKDOWN_CONFIG_FILE: .markdownlint.yml
           LINTER_RULES_PATH: ./
