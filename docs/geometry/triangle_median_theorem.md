@@ -45,10 +45,9 @@
 
 По теореме Фалеса $\frac{|B_1M|}{|MC|} = \frac{|BA_1|}{|A_1C|} = \frac{1}{1}$. Если |*BA<sub>1</sub>*| = x, то |*MC*| = x, а |*AB<sub>1</sub>*| = 2x
 
-По теореме Фалеса $\frac{|AO|}{|OA_1|}= \frac{|AB_1|}{|B_1M|} = \frac{2x}{x} = \frac{2}{1}$ 
+По теореме Фалеса $\frac{|AO|}{|OA_1|}= \frac{|AB_1|}{|B_1M|} = \frac{2x}{x} = \frac{2}{1}$
 
 Аналогично доказывается для *AA<sub>1</sub>* и *CC<sub>1</sub>*; *BB<sub>1</sub>* и *CC<sub>1</sub>*
-
 
 !!! note "Заметка"
 
