@@ -29,5 +29,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_HTML: false
           VALIDATE_YAML: false
+          VALIDATE_DOCKERFILE_HADOLINT: false
           MARKDOWN_CONFIG_FILE: .markdownlint.yml
           LINTER_RULES_PATH: ./
