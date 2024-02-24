@@ -1,0 +1,33 @@
+name: Lint files
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      [opened]
+  push:
+
+permissions:
+  contents: read
+  packages: read
+  statuses: write
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Super-linter
+        uses: super-linter/super-linter@v6.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_HTML: false
+          VALIDATE_YAML: false
+          MARKDOWN_CONFIG_FILE: .markdownlint.yml
+          LINTER_RULES_PATH: ./
