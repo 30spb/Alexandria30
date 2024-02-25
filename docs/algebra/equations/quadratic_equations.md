@@ -13,18 +13,20 @@
 - $b = 0$: <br>
     - Если $c > 0$, то решений нет <br>
 
-    - Если $c \le 0$: <br>
+    - Если $c \le 0$: :material-information-outline:{ title="в уравнении ниже c - положительное число, взятое со знаком минус"} <br>
 
         <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
 
         $\begin{array}{ll}
-            x^2 - c = 0 \iff \\
-            (x - \sqrt c)(x + \sqrt c) = 0 \iff \\
+            \sqrt{a}x^2 - c = 0 \iff \\
+            (\sqrt{a}x - \sqrt c)(\sqrt{a}x + \sqrt c) = 0 \iff \\
             \left[\begin{array}{lr}
-                x - \sqrt c = 0 \\
-                x + \sqrt c = 0
+                \sqrt{a}x - \sqrt c = 0 \\
+                \sqrt{a}x + \sqrt c = 0
             \end{array}\right. \iff \\
-            x = \pm \sqrt c
+            \sqrt{a}x = \pm \sqrt c \iff \\
+            x = \pm \frac{\sqrt c}{\sqrt a} \iff \\
+            x = \pm \sqrt \frac{c}{a}
         \end{array}$
 
         </div>
@@ -34,16 +36,20 @@
     <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
 
     $\begin{array}{ll}
-        x^2 - bx = 0 \iff \\
-        x(x - b) = 0 \iff \\
+        ax^2 + bx = 0 \iff \\
+        x(ax + b) = 0 \iff \\
         \left[\begin{array}{lr}
             x = 0  \\
-            x - b = 0
+            ax + b = 0
         \end{array}\right. \iff \\
         \left[\begin{array}{lr}
             x = 0  \\
-            x = b
-        \end{array}\right.
+            ax = -b
+        \end{array}\right. \iff \\
+        \left[\begin{array}{lr}
+            x = 0  \\
+            x = -\frac{b}{a}
+        \end{array}\right. \iff \\
     \end{array}$
 
     </div>
