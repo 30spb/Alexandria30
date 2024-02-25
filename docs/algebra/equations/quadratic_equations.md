@@ -11,18 +11,42 @@
 Если $b = 0$ или $с = 0$ не нужны специальные приемы для решения такого уравнения.
 
 - $b = 0$: <br>
-  - Если $c > 0$, то решений нет <br>
-  - Если $c \le 0$:<br>
-    $x^2 - c = 0 \iff$ <br>
-    $(x - \sqrt c)(x + \sqrt c) = 0 \iff$ <br>
-    $x - \sqrt c = 0 \lor x + \sqrt c = 0 \iff$ <br>
-    $x = \pm \sqrt c$ <br>
+    - Если $c > 0$, то решений нет <br>
+
+    - Если $c \le 0$: <br>
+
+        <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
+        $\begin{array}{ll}
+            x^2 - c = 0 \iff \\
+            (x - \sqrt c)(x + \sqrt c) = 0 \iff \\
+            \left[\begin{array}{lr}
+                x - \sqrt c = 0 \\
+                x + \sqrt c = 0
+            \end{array}\right. \iff \\
+            x = \pm \sqrt c
+        \end{array}$
+
+        </div>
 
 - $с = 0$: <br>
-    $x^2 - bx = 0 \iff$ <br>
-    $x(x - b) = 0 \iff$ <br>
-    $x = 0 \lor x - b = 0 \iff$ <br>
-    $x = 0 \lor x = b$
+
+    <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
+    $\begin{array}{ll}
+        x^2 - bx = 0 \iff \\
+        x(x - b) = 0 \iff \\
+        \left[\begin{array}{lr}
+            x = 0  \\
+            x - b = 0
+        \end{array}\right. \iff \\
+        \left[\begin{array}{lr}
+            x = 0  \\
+            x = b
+        \end{array}\right.
+    \end{array}$
+
+    </div>
 
 ### Остальные случаи {#остальные-случаи}
 
