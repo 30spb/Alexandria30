@@ -7,6 +7,9 @@ on:
     types:
       [opened]
   push:
+    paths:
+      - "**.md"
+
 
 permissions:
   contents: read
