@@ -133,15 +133,21 @@ $c^2 = a^2 + b^2$
 
 <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
 
-Тогда построим треугольник $A_1 B_1 C_1$ так, чтобы $\angle C_1 = 90^\circ; |B_1 C_1| = a; |A_1 C_1| = b$. Тогда $|A_1 C_1| = \sqrt{a^2 + b^2} = |AC|$
+Тогда построим треугольник $A_1 B_1 C_1$ так, чтобы $\angle C_1 = 90^\circ; |B_1 C_1| = a; |A_1 C_1| = b$.
+Тогда $|A_1 C_1| = \sqrt{a^2 + b^2} = |AC|$
 
 </div>
 
 *△ABC* = △$A_1 B_1 C_1$ по трем сторонам, но тогда $\angle C = 90^\circ$ - противоречие
 
 ---
-| Author                           | Contact                                                 | Role     |
-| -------------------------------- | ------------------------------------------------------- | -------- |
-| Пифагор                          | [Wiki](https://en.wikipedia.org/wiki/Pythagoras)        | Автор    |
-| Гарфилд (который не из мультика) | [Wiki](https://en.wikipedia.org/wiki/James_A._Garfield) | Автор    |
-| Чухалёнок Алексей                | [Тг](https://t.me/AlexeyRoot)                           | Редактор |
+
+Над статьей работали:
+
+- Чухалёнок Алексей ([Тг](https://t.me/AlexeyRoot)): редактор
+- Валентин Андреевич ([Страничка в тридцатке](https://school30.spb.ru/staff/~evstafyevva.shtml)): магистр-джедай
+
+Выражаем благодарность:
+
+- Пифагору ([Wiki](https://en.wikipedia.org/wiki/Pythagoras)), за эту шедевро-теоремку
+- Джеймсу Гарфилду ([Wiki](https://en.wikipedia.org/wiki/James_A._Garfield)), за одно из доказательств этой теоремы
