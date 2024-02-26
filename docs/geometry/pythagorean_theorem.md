@@ -36,7 +36,13 @@
 
 С одной стороны площадь *ABCD* равна произведению его сторон
 
-$(a + b)^2 = a(a + b) + b(a + b) = a^2 + 2ab + b^2$
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
+$\begin{array}{ll}
+    (a + b)^2 = a(a + b) + b(a + b) = a^2 + 2ab + b^2
+\end{array}$
+
+</div>
 
 <figure markdown="span">
     ![ФСУ](../assets/geometry/pythagorean-theorem/faster_multiplication_formulas.svg "ФСУ")
@@ -49,13 +55,17 @@ $4 \cdot \frac{1}{2} \cdot ab + c^2$
 
 Подставим
 
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
 $\begin{array}{ll}
     a^2 + 2ab + b^2 = 4 \cdot \frac{1}{2} \cdot ab + c^2 \iff \\
     a^2 + 2ab + b^2 = 2ab + c^2 \iff \\
     c^2 = a^2 + b^2
 \end{array}$
 
-### способ 2 (доказательство Гарфилда) {#способ2-гарфилд}
+</div>
+
+### 2 способ (доказательство Гарфилда) {#способ2-гарфилд}
 
 Сделаем дополнительное построение
 
@@ -74,7 +84,11 @@ $(a + b) \cdot \frac{a + b}{2} = \frac{(a + b)^2}{2}$
 
 С другой стороны равна сумме площадей фигур, из которых она состоит
 
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
 $2 \cdot \frac{1}{2} \cdot ab + \frac{1}{2} \cdot c \cdot c = \frac{c^2 + 2ab}{2}$
+
+</div>
 
 Подставим
 
@@ -84,7 +98,7 @@ $\begin{array}{ll}
     c^2 = a^2 + b^2
 \end{array}$
 
-### способ 3 {#способ3}
+### 3 способ {#способ3}
 
 Сделаем дополительное построение
 
@@ -99,7 +113,11 @@ $\begin{array}{ll}
 
 С другой стороны равна сумме площадей фигур, из которых она состоит
 
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
 $4 \cdot \frac{1}{2} \cdot ab + (a - b)^2 = a^2 + b^2 + 2ab - 2ab = a^2 + b^2$
+
+</div>
 
 Получается
 
@@ -113,7 +131,11 @@ $c^2 = a^2 + b^2$
 
 Предположим что это не так: $\angle C \neq 90^\circ$
 
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
 Тогда построим треугольник $A_1 B_1 C_1$ так, чтобы $\angle C_1 = 90^\circ; |B_1 C_1| = a; |A_1 C_1| = b$. Тогда $|A_1 C_1| = \sqrt{a^2 + b^2} = |AC|$
+
+</div>
 
 *△ABC* = △$A_1 B_1 C_1$ по трем сторонам, но тогда $\angle C = 90^\circ$ - противоречие
 
