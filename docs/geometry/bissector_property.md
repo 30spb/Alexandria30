@@ -8,7 +8,7 @@
 
 <figure markdown="span">
     ![Дано](../assets/geometry/bissector_property/given.svg "Дано")
-    <figcaption>Доказать, что $\frac{a}{b} = \frac{x}{y} (или \frac{a}{x} = \frac{b}{y})$</figcaption>
+    <figcaption>Доказать, что $\frac{a}{b} = \frac{x}{y} ($ или $\frac{a}{x} = \frac{b}{y})$</figcaption>
 </figure>
 
 ### 1 cпособ {#1-способ}
