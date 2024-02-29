@@ -1,12 +1,9 @@
 name: Lint files
 
 on:
-  pull_request:
-    branches:
-      - main
-    types:
-      [opened]
   push:
+    branches:
+      - "!main"
     paths:
       - "**.md"
 
