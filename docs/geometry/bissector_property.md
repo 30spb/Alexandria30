@@ -8,7 +8,7 @@
 
 <figure markdown="span">
     ![Дано](../assets/geometry/bissector_property/given.svg "Дано")
-    <figcaption>Доказать, что $\frac{a}{b} = \frac{x}{y} ($ или $\frac{a}{x} = \frac{b}{y})$</figcaption>
+    <figcaption>Доказать, что $\frac{a}{b} = \frac{x}{y} (или \frac{a}{x} = \frac{b}{y})$</figcaption>
 </figure>
 
 ### 1 cпособ {#1-способ}
@@ -51,10 +51,3 @@ $\begin{array}{ll}
 Из характеристического свойства биссектрисы угла, *D* равноудалена от *AC* и *BC*, то есть |*DH*$_a$| = |*DH*$_b$|. Аналогично получаем $\frac{S(△CDA)}{S(△CDB)} = \frac{a}{b}$, значит $\frac{a}{b} = \frac{x}{y}$, что и требовалось доказать
 
 </div>
-
----
-
-Над статьей работали:
-
-- Чухалёнок Алексей ([Тг](https://t.me/AlexeyRoot)): редактор
-- Валентин Андреевич ([Страничка в тридцатке](https://school30.spb.ru/staff/~evstafyevva.shtml)): магистр-джедай
