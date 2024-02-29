@@ -1,6 +1,12 @@
 name: Deploy mkdocs to test server
 
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - "develop"
+    paths:
+      - "**.md"
+  workflow_dispatch:
 
 jobs:
   deploy:
