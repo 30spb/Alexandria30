@@ -75,6 +75,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
+  - pymdownx.caret
+  - pymdownx.tilde
 
 extra_javascript:
   - javascripts/mathjax.js
