@@ -9,8 +9,6 @@
 <path d="M33 170L162 40" stroke="#616161" stroke-opacity="0.8" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M162 40L216 169" stroke="#616161" stroke-opacity="0.8" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M162 40L136.766 169.433" stroke="#616161" stroke-opacity="0.8" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M44 170C44 176.075 39.0751 181 33 181C26.9249 181 22 176.075 22 170C22 163.925 26.9249 159 33 159C39.0751 159 44 163.925 44 170Z" fill="#1565C0" fill-opacity="0.2"/>
-<path d="M44 170C44 176.075 39.0751 181 33 181C26.9249 181 22 176.075 22 170C22 163.925 26.9249 159 33 159C39.0751 159 44 163.925 44 170Z" stroke="#1565C0" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
 <path d="M38 170C38 172.761 35.7614 175 33 175C30.2386 175 28 172.761 28 170C28 167.239 30.2386 165 33 165C35.7614 165 38 167.239 38 170Z" fill="#1565C0"/>
 <path d="M38 170C38 172.761 35.7614 175 33 175C30.2386 175 28 172.761 28 170C28 167.239 30.2386 165 33 165C35.7614 165 38 167.239 38 170Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M38.8864 159H37.4091L41.6818 147.364H43.1364L47.4091 159H45.9318L42.4545 149.205H42.3636L38.8864 159ZM39.4318 154.455H45.3864V155.705H39.4318V154.455Z" fill="#1565C0"/>
