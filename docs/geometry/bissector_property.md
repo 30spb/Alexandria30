@@ -60,6 +60,8 @@ $\begin{array}{ll}
 $\angle ADC и \angle CDB$ - смежные, а значит их синусы равны
 $\angle ACD и \angle DCB$ - равные, а значит их синусы равны
 
+Пусть d = CD
+
 S(△ACD) = $\frac{1}{2} \cdot xd \cdot sin \angle ADC = $\frac{1}{2} \cdot ad \cdot sin \angle ACD \rightarrow$ <br><br>
 $x \cdot sin \angle ADC = a \cdot sin \angle ACD \iff$ <br><br>
 $\frac{a}{x} = \frac{sin \angle ADC}{\angle ACD}$
