@@ -14,7 +14,7 @@
 
 <figure markdown="span">
     ![Данный треугольник](../assets/geometry/pythagorean-theorem/given_triangle.svg "Данный треугольник")
-    <figcaption>Дан прямоугольный треугольник с гипотенуузой *c*, катетами *a* и *b*</figcaption>
+    <figcaption>Дан прямоугольный треугольник с гипотенузой *c*, катетами *a* и *b*</figcaption>
 </figure>
 
 ## Прямое утверждение {#прямое-утверждение}
