@@ -57,6 +57,7 @@ $\begin{array}{ll}
 ![способ 3](../assets/geometry/bissector_property/given.svg "способ 3")
 
 <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
 $\angle$ ADC и $\angle$ CDB - смежные, а значит их синусы равны
 $\angle$ ACD и $\angle$ DCB - равные, а значит их синусы равны
 
@@ -72,7 +73,5 @@ S(△BCD) = $\frac{1}{2} \cdot yd \cdot sin \angle BDC = \frac{1}{2} \cdot bd \c
 $y \cdot sin \angle BDC = b \cdot sin \angle BCD \iff$ <br><br>
 $\frac{b}{y} = \frac{sin \angle BDC}{sin \angle BCD} \iff$ <br><br>
 $\frac{b}{y} = \frac{sin \angle ADC}{sin \angle ACD} = \frac{a}{x}$
-
+  
 </div>
-
-
