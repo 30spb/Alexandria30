@@ -51,3 +51,28 @@ $\begin{array}{ll}
 Из характеристического свойства биссектрисы угла, *D* равноудалена от *AC* и *BC*, то есть |*DH*$_a$| = |*DH*$_b$|. Аналогично получаем $\frac{S(△CDA)}{S(△CDB)} = \frac{a}{b}$, значит $\frac{a}{b} = \frac{x}{y}$, что и требовалось доказать
 
 </div>
+
+### 3 способ {#3-способ}
+
+![способ 3](../assets/geometry/bissector_property/given.svg "способ 3")
+
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+$\angle ADC и \angle CDB$ - смежные, а значит их синусы равны
+$\angle ACD и \angle DCB$ - равные, а значит их синусы равны
+
+Пусть d = CD
+
+S(△ACD) = $\frac{1}{2} \cdot xd \cdot sin \angle ADC = $\frac{1}{2} \cdot ad \cdot sin \angle ACD \rightarrow$ <br><br>
+$x \cdot sin \angle ADC = a \cdot sin \angle ACD \iff$ <br><br>
+$\frac{a}{x} = \frac{sin \angle ADC}{\angle ACD}$
+
+Аналогично
+
+S(△BCD) = $\frac{1}{2} \cdot yd \cdot sin \angle BDC = $\frac{1}{2} \cdot bd \cdot sin \angle BCD \rightarrow$ <br><br>
+$y \cdot sin \angle BDC = b \cdot sin \angle BCD \iff$ <br><br>
+$\frac{b}{y} = \frac{sin \angle BDC}{\angle BCD} \iff$ <br><br>
+$\frac{b}{y} = \frac{sin \angle ADC}{\angle ACD} = \frac{a}{x}$
+
+</div>
+
+
