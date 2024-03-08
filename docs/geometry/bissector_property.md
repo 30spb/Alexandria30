@@ -63,13 +63,13 @@ $\angle$ ACD и $\angle$ DCB - равные, а значит их синусы �
 
 Пусть d = CD
 
-S(△ACD) = $\frac{1}{2} \cdot xd \cdot sin \angle ADC = \frac{1}{2} \cdot ad \cdot sin \angle ACD \rightarrow$ <br><br>
+$S(△ACD) = \frac{1}{2} \cdot xd \cdot sin \angle ADC = \frac{1}{2} \cdot ad \cdot sin \angle ACD \Rightarrow$ <br><br>
 $x \cdot sin \angle ADC = a \cdot sin \angle ACD \iff$ <br><br>
 $\frac{a}{x} = \frac{sin \angle ADC}{sin \angle ACD}$
 
 Аналогично
 
-S(△BCD) = $\frac{1}{2} \cdot yd \cdot sin \angle BDC = \frac{1}{2} \cdot bd \cdot sin \angle BCD \rightarrow$ <br><br>
+$S(△BCD) = \frac{1}{2} \cdot yd \cdot sin \angle BDC = \frac{1}{2} \cdot bd \cdot sin \angle BCD \Rightarrow$ <br><br>
 $y \cdot sin \angle BDC = b \cdot sin \angle BCD \iff$ <br><br>
 $\frac{b}{y} = \frac{sin \angle BDC}{sin \angle BCD} \iff$ <br><br>
 $\frac{b}{y} = \frac{sin \angle ADC}{sin \angle ACD} = \frac{a}{x}$
