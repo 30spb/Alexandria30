@@ -16,7 +16,7 @@
 
 <figure markdown="span">
     ![Пример равносоставленных фигур](../assets/geometry/boyai_gerwien_theorem/example_of_figures_with_equal_area.svg "Пример равносоставленных фигур")
-    <figcaption>Прямоугольник *AHCD* и треугольник *△ABC* - равновеликие</figcaption>
+    <figcaption>Прямоугольник *AHCD* и треугольник *△ABC* - равносоставленные</figcaption>
 </figure>
 
 ## Формулировка {#формулировка}
