@@ -52,9 +52,27 @@ $\begin{array}{ll}
 
 </div>
 
----
+### 3 способ {#3-способ}
 
-Над статьей работали:
+![способ 3](../assets/geometry/bissector_property/given.svg "способ 3")
 
-- Чухалёнок Алексей ([Тг](https://t.me/AlexeyRoot)): редактор
-- Валентин Андреевич ([Страничка в тридцатке](https://school30.spb.ru/staff/~evstafyevva.shtml)): магистр-джедай
+<div style="overflow-x: auto; overflow-y: hidden" markdown="block">
+
+$\angle$ ADC и $\angle$ CDB - смежные, а значит их синусы равны
+
+$\angle$ ACD и $\angle$ DCB - равные, а значит их синусы равны
+
+Пусть d = CD
+
+$S(△ACD) = \frac{1}{2} \cdot xd \cdot \sin \angle ADC = \frac{1}{2} \cdot ad \cdot \sin \angle ACD \Rightarrow$ <br><br>
+$x \cdot \sin \angle ADC = a \cdot \sin \angle ACD \iff$ <br><br>
+$\frac{a}{x} = \frac{\sin \angle ADC}{\sin \angle ACD}$
+
+Аналогично
+
+$S(△BCD) = \frac{1}{2} \cdot yd \cdot \sin \angle BDC = \frac{1}{2} \cdot bd \cdot \sin \angle BCD \Rightarrow$ <br><br>
+$y \cdot \sin \angle BDC = b \cdot \sin \angle BCD \iff$ <br><br>
+$\frac{b}{y} = \frac{\sin \angle BDC}{\sin \angle BCD} \iff$ <br><br>
+$\frac{b}{y} = \frac{\sin \angle ADC}{\sin \angle ACD} = \frac{a}{x}$
+  
+</div>

@@ -14,7 +14,7 @@
 
 <figure markdown="span">
     ![Данный треугольник](../assets/geometry/pythagorean-theorem/given_triangle.svg "Данный треугольник")
-    <figcaption>Дан прямоугольный треугольник с гипотенуузой *c*, катетами *a* и *b*</figcaption>
+    <figcaption>Дан прямоугольный треугольник с гипотенузой *c*, катетами *a* и *b*</figcaption>
 </figure>
 
 ## Прямое утверждение {#прямое-утверждение}
@@ -115,7 +115,7 @@ $\begin{array}{ll}
 
 <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
 
-$4 \cdot \frac{1}{2} \cdot ab + (a - b)^2 = a^2 + b^2 + 2ab - 2ab = a^2 + b^2$
+$4 \cdot \frac{1}{2} \cdot ab + (b - a)^2 = a^2 + b^2 + 2ab - 2ab = a^2 + b^2$
 
 </div>
 
