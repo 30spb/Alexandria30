@@ -6,3 +6,4 @@ nav:
   - Теорема Пифагора: pythagorean_theorem.md
   - Свойство биссектрисы треугольника: bissector_property.md
   - Средняя линия треугольника: triangle_middle_line.md
+  - ГМТ из которых данный отрезок виден под данным углом: points_from_which_segment_visible_at_given_angle.md
