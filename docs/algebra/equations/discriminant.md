@@ -36,7 +36,7 @@ $\begin{array}{ll}
 </div>
 
 - $D < 0$: <br>
-    Сумма неотрицательного ($x + \frac{b}{2a}^2$) и положительного (-$\frac{-D}{4a^2}$) числа не может быть равна нулю. <br><br>
+    Сумма неотрицательного $(x + \frac{b}{2a})^2$ и положительного ($\frac{-D}{4a^2}$) числа не может быть равна нулю. <br><br>
 
 - $D = 0$: <br>
     <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
