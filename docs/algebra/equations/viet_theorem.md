@@ -8,7 +8,7 @@
 
 $\begin{cases}
     x_1 + x_2 = - \frac{b}{a} \\
-    x_1 * x_2 = \frac{c}{a}
+    x_1 \cdot x_2 = \frac{c}{a}
 \end{cases}$
 
 </div>
@@ -36,7 +36,7 @@ $\begin{array}{ll}
 
 $\begin{cases}
     x_1 + x_2 = \frac{-b + \sqrt D - \sqrt D - b}{2a} = - \frac{2b}{2a} = - \frac{b}{a}\\
-    x_1 * x_2 = \frac{(-b + \sqrt D) (-b - \sqrt D)}{4a^2} = \frac{b^2 - D}{4a^2} = \frac{b^2 - b^2 + 4ac}{4a^2} = \frac{c}{a} \\
+    x_1 \cdot x_2 = \frac{(-b + \sqrt D) (-b - \sqrt D)}{4a^2} = \frac{b^2 - D}{4a^2} = \frac{b^2 - b^2 + 4ac}{4a^2} = \frac{c}{a} \\
 \end{cases}$
 
 </div>
