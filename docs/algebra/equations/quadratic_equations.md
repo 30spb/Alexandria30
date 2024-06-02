@@ -11,22 +11,21 @@
 Если $b = 0$ или $с = 0$ не нужны специальные приемы для решения такого уравнения.
 
 - $b = 0$: <br>
-    - Если $c > 0$, то решений нет <br>
+    Получаем уравнение вида
 
-    - Если $c \le 0$: :material-information-outline:{ title="в уравнении ниже c - положительное число, взятое со знаком минус"} <br>
+    $\begin{array}{ll}
+        ax^2 + c = 0 \Leftrightarrow
+        x^2 = - \frac{c}{a}
+    \end{array}$
+
+    - Если $\frac{c}{a} > 0$, то решений нет <br>
+
+    - Если $\frac{c}{a} \le 0$: <br>
 
         <div style="overflow-x: auto; overflow-y: hidden" markdown="block">
 
         $\begin{array}{ll}
-            \sqrt{a}x^2 - c = 0 \iff \\
-            (\sqrt{a}x - \sqrt c)(\sqrt{a}x + \sqrt c) = 0 \iff \\
-            \left[\begin{array}{lr}
-                \sqrt{a}x - \sqrt c = 0 \\
-                \sqrt{a}x + \sqrt c = 0
-            \end{array}\right. \iff \\
-            \sqrt{a}x = \pm \sqrt c \iff \\
-            x = \pm \frac{\sqrt c}{\sqrt a} \iff \\
-            x = \pm \sqrt \frac{c}{a}
+            x = \sqrt{-\frac{c}{a}}
         \end{array}$
 
         </div>
@@ -66,6 +65,7 @@
 Над статьей работали:
 
 - Лавелин Михаил ([Тг](https://t.me/mikhaillav)): редактор
+- Ефремов Дмитрий ([Тг](https://t.me/TheBestGoood)): редактор
 
 Выражаем благодарность:
 
